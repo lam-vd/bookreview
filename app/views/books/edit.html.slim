@@ -1,0 +1,12 @@
+.col-md-6.col-md-offset-3
+  .edit-book-form
+    h1
+      | Edit Book
+    = simple_form_for @book,:html => { :multipart =>true}  do |f|
+      = f.select :category_id , @categories
+      = f.file_field :book_img
+      = f.input :title, label: "Book title"
+      = f.input :description, label: "Description"
+      = f.input :author, label: "Author"
+      = f.button :submit , class: "btn-custom2"
+

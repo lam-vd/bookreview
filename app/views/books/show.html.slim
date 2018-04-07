@@ -1,0 +1,42 @@
+.row
+  .col-md-8
+    .book-info
+      h2.book-title
+        = @book.title
+      h4
+        | Price:
+        = @book.price
+        | $
+        = simple_form_for @order_item, remote: true do |f|
+          = f.hidden_field :book_id, value: @book.id
+          div.input-group
+            = f.number_field :quanity, value: 1, min: 1 , class: "form-control"
+          = f.submit "Add to Cart", class: "btn-custom2"
+      h3.book-author
+        span
+          | From:
+        = @book.author
+      h2.avg-rating
+        | Average Rating
+        |  <div class="average-review-rating" data-score="
+        = @average_review
+        | ">
+      span.number-of-reviews
+        | Base on
+        = @book.reviews.count
+        |  Review
+      p.book-description
+        = @book.description
+
+    .links.btn-group
+      = link_to "Back", root_path, class: "btn btn-custom"
+      - if user_signed_in?
+        - if @book.user_id  == current_user.id
+          = link_to 'Edit', edit_book_path(@book), class: "btn btn-custom"
+          = link_to 'Delete', book_path(@book), method: :delete, data: {confirm: "Are You Sure?"}, class: "btn btn-custom"
+  .col-md-4
+      = image_tag @book.book_img.url(:book_show), class: "book-show"
+      .reviews
+        = render @book.reviews
+        div
+          = link_to "Add Review", new_book_review_path(@book), class: "btn btn-custom"

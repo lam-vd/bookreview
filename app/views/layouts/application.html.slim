@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title
+      | BookReview
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  body
+    nav.navbar.navbar-default
+      .container
+        .navbar-header
+          = link_to "BookReview" , root_path, class: "navbar-brand"
+        ul.nav.navbar-nav
+          - if user_signed_in?
+            li
+              a[href="" title="Email-User"]
+                = current_user.email
+            li
+              = link_to "Sign Out",destroy_user_session_path, method: :delete, data: {confirm: "Are you sure?"}
+          - else
+            li
+              = link_to "Log In", new_user_session_path
+            li
+              = link_to "Sign Up" ,new_user_registration_path
+        ul.nav.navbar-nav
+        form.navbar-form[action=""]
+          .form-group
+            input.form-control[type="text" placeholder="Search"]
+          button.btn.btn-default[type="submit"]
+            | Submit
+          = link_to "#{current_order.order_items.size} Items in Cart ( #{current_order.subtotal} )", carts_path, class: "btn btn-link"
+          ul.nav.navbar-nav.navbar-right
+            li.dropdown
+              a.dropdown-toggle[href="#" title="" data-toggle="dropdown" role="buttons" aria-expanded="false"]
+                | Category
+                span.caret
+              ul.dropdown-menu[role="menu"]
+                - Category.all.each do |category|
+                  |  <li class="
+                  = 'active' if params[:category] == category.name
+                  | ">
+                  = link_to category.name, books_path(category: category.name), class: "link"
+              - if user_signed_in? && current_user.email == 'vuduclam2412@gmail.com'
+                  li
+                    = link_to "Add Book", new_book_path
+    - if notice
+      p.alert.alert-success[style="text-align: center"]
+        = notice
+    - if alert
+      p.alert.alert-danger[style="text-align: center"]
+        = alert
+    .container
+      = yield
+    hr
+    footer.footer[style="text-align: center; padding-top: 20px;"]
+      span.text-muted
+        |  R-O-R by Vũ Đức Lam.@2018
+        a href="https://www.facebook.com/vuduclam2412" title="facebook"
+          | Facebook
+      p
+        | SĐT: 01203533501

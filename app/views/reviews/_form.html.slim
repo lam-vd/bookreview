@@ -1,0 +1,6 @@
+= simple_form_for ([@book,@book.reviews.build]) do  |f|
+  #rating-form
+    label
+      | Rating:
+  = f.input :comment ,placeholder: "Comment"
+  = f.button :submit, class: "btn-custom2"

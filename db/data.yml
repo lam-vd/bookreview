@@ -1,0 +1,406 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2018-03-31 09:41:47.793093'
+    - '2018-03-31 09:41:47.793093'
+
+---
+books:
+  columns:
+  - id
+  - title
+  - description
+  - author
+  - created_at
+  - updated_at
+  - user_id
+  - category_id
+  - book_img_file_name
+  - book_img_content_type
+  - book_img_file_size
+  - book_img_updated_at
+  records: 
+  - - 1
+    - It Ends With Her Kindle Edition
+    - "He started the game. She’ll end it.\r\n\r\nFBI special agent Clarke Sinclair
+      doesn’t give up easily. She’s spent years tracking serial killer Simon Cross,
+      forced to follow his twisted clues and photographs across the country. Clarke
+      knows that Cross selects only redheaded women and that he doesn’t target another
+      victim until Clarke discovers the previous one.\r\n\r\nHe’s never broken pattern…until
+      now.\r\n\r\nA girl has already gone missing in upstate New York when a second
+      one is kidnapped—a blonde. The killer’s MO has changed, sending Clarke back
+      to the drawing board. The closer she gets to the truth, the deeper she’s drawn
+      into an inescapable trap made just for Clarke. Whatever Cross’s ultimate game
+      is, it ends with her."
+    - 'Brianna Labuskes '
+    - '2018-04-02 06:28:46.989398'
+    - '2018-04-02 09:06:09.582707'
+    - 1
+    - 1
+    - 617m43n-HWL._SX331_BO1_204_203_200_.jpg
+    - image/jpeg
+    - 65802
+    - '2018-04-02 09:06:09.478201'
+  - - 4
+    - A Brief History of Time Paperback – Unabridged, September 1, 1998
+    - "A landmark volume in science writing by one of the great minds of our time,
+      Stephen Hawking’s book explores such profound questions as: How did the universe
+      begin—and what made its start possible? Does time always flow forward? Is the
+      universe unending—or are there boundaries? Are there other dimensions in space?
+      What will happen when it all ends?\r\n\r\nTold in language we all can understand,
+      A Brief History of Time plunges into the exotic realms of black holes and quarks,
+      of antimatter and “arrows of time,” of the big bang and a bigger God—where the
+      possibilities are wondrous and unexpected. With exciting images and profound
+      imagination, Stephen Hawking brings us closer to the ultimate secrets at the
+      very heart of creation."
+    - Stephen Hawking
+    - '2018-04-02 08:01:35.200602'
+    - '2018-04-02 09:02:32.587339'
+    - 1
+    - 3
+    - 617m43n-HWL._SX331_BO1_204_203_200_.jpg
+    - image/jpeg
+    - 65802
+    - '2018-04-02 09:02:32.480330'
+  - - 5
+    - The Rails 5 Way (4th Edition) (Addison-Wesley Professional Ruby Series) 4th
+      Edition
+    - "Praise for The Rails Way\r\n\r\n \r\n\r\n\"For intermediates and above, I strongly
+      recommend adding this title to your technical bookshelf. There is simply no
+      other Rails title on the market at this time that offers the technical depth
+      of the framework than The Rails™ 3 Way.\"\r\n\r\n—Mike Riley, Dr. Dobb’s Journal\r\n\r\n
+      \r\n\r\n\"I highly suggest you get this book. Software moves fast, especially
+      the Rails API, but I feel this book has many core API and development concepts
+      that will be useful for a while to come.\"\r\n\r\n—Matt Polito, software engineer
+      and member of Chicago Ruby User Group\r\n\r\n \r\n\r\n\"This book should live
+      on your desktop if you’re a Rails developer. It’s nearly perfect in my opinion.\"\r\n\r\n—Luca
+      Pette, developer\r\n\r\n \r\n\r\n\"The Rails™ 3 Way is likely to take you from
+      being a haphazard poke-a-stick-at-it programmer to a deliberate, skillful, productive,
+      and confident RoR developer.\"\r\n\r\n—Katrina Owen, JavaRanch\r\n\r\n \r\n\r\n\"I
+      can positively say that it’s the single best Rails book ever published to date.
+      By a long shot.\"\r\n\r\n—Antonio Cangiano, software engineer and technical
+      evangelist at IBM\r\n\r\n \r\n\r\n\"This book is a great crash course in Ruby
+      on Rails! It doesn’t just document the features of Rails, it filters everything
+      through the lens of an experienced Rails developer—so you come out a pro on
+      the other side.\"\r\n\r\n—Dirk Elmendorf, cofounder of Rackspace Inc. and Rails
+      developer\r\n\r\n \r\n\r\n\"The key to The Rails Way is in the title. It literally
+      covers the 'way' to do almost everything with Rails. Writing a truly exhaustive
+      reference to the most popular web application framework used by thousands of
+      developers is no mean feat. A thankful community of developers that has struggled
+      to rely on scant documentation will embrace The Rails Way with open arms. A
+      tour de force!\"\r\n\r\n—Peter Cooper, editor, Ruby Inside: The Ruby Blog\r\n\r\n
+      \r\n\r\n\"In the past year, dozens of Rails books have been rushed to publication.
+      A handful are good. Most regurgitate rudimentary information easily found on
+      the Web. Only this book provides both the broad and deep technicalities of Rails.
+      Nascent and expert developers, I recommend you follow The Rails Way.\"\r\n\r\n—Martin
+      Streicher, chief technology officer, McClatchy Interactive, former editor in
+      chief of Linux Magazine\r\n\r\n \r\n\r\n\"Hal Fulton’s The Ruby Way has always
+      been by my side as a reference while programming Ruby. Many times I had wished
+      there was a book that had the same depth and attention to detail, only focused
+      on the Rails framework. That book is now here and hasn’t left my desk for the
+      past month.\"\r\n\r\n—Nate Klaiber, Ruby programmer\r\n\r\n \r\n\r\n\"I knew
+      soon after becoming involved with Rails that I had found something great. Now,
+      with Obie’s book, I have been able to step into Ruby on Rails development coming
+      from .NET and be productive right away. The applications I have created I believe
+      to be a much better quality due to the techniques I learned using Obie’s knowledge.\"\r\n\r\n—Robert
+      Bazinet, InfoQ.com, .NET, and Ruby community editor and founding member of the
+      Hartford Ruby Brigade\r\n\r\n \r\n\r\n\"Extremely well written; it’s a resource
+      that every Rails programmer should have. Yes, it’s that good.\"\r\n\r\n—Reuven
+      Lerner, Linux Journal columnist"
+    - Obie Fernandez (Author)
+    - '2018-04-02 14:57:50.085603'
+    - '2018-04-02 14:58:24.965432'
+    - 1
+    - 2
+    - 1.jpg
+    - image/jpeg
+    - 48847
+    - '2018-04-02 14:58:24.382563'
+  - - 6
+    - 'Ruby on Rails 5: Web App Development for Beginners'
+    - 'his book is an exploration of Ruby on Rails 5. It begins by guiding you on
+      how to setup the Rails development environment on your local computer in various
+      platforms. You are then guided on how to test the various parts of your Rails
+      5 app. Test-Driven Development is also explored in detail. The MVC (Model-View-Controller)
+      architecture for apps is discussed. You will learn how to implement a Rails
+      5 app using such architecture for ease of development, maintenance, and organization.
+      Each of the modern web apps is in need of an authentication system. This helps
+      us to regulate how the resources of your app are accessed. This book guides
+      you on how to create an authentication system with Rails. It is also good for
+      us to implement a mechanism for activating accounts via email. This also allows
+      us to know whether a user has provided a valid email address or not. This book
+      guides you on how to implement such a system in Rails 5. You will learn how
+      to deploy a Rails 5 app with Heroku. The following topics are explored in this
+      book: - Install and Setup your Rails Development Environment - Testing and Test-Driven
+      Development - Model-View-Controller (MVC) Pattern - Static Pages - Implementing
+      an Authentication System - Account Activation and Password Reset - Application
+      Deployment'
+    - Mark Smart
+    - '2018-04-02 15:00:26.829656'
+    - '2018-04-02 15:00:26.829656'
+    - 1
+    - 2
+    - 2.jpg
+    - image/jpeg
+    - 53975
+    - '2018-04-02 15:00:26.750174'
+  - - 7
+    - 'Ruby on Rails 5.0 for Autodidacts: Learn Ruby 2.3 and Rails 5.0'
+    - A step by step guide to learn Ruby on Rails 5.0. It includes a basic tutorial
+      for Ruby 2.3 and is written for programmers who know at least one other programming
+      language and are familiar with HTML. It covers Active Record, Scaffolding, REST,
+      Routing, Bundler, Test Driven Development, Cookies, Sessions, Action Mailer,
+      I18n, Asset Pipeline, JavaScript, Caching, Templates and of course the new 5.0
+      features Action Cable and Active Job.
+    - Stefan Wintermeyer
+    - '2018-04-02 15:01:04.686599'
+    - '2018-04-02 15:01:04.686599'
+    - 1
+    - 2
+    - 3.jpg
+    - image/jpeg
+    - 32323
+    - '2018-04-02 15:01:04.599847'
+  - - 8
+    - 'Learn Ruby on Rails: Book One Kindle Edition'
+    - "Get the book that is called \"The best Rails book for beginners.\"\r\nFor a
+      solid start on Ruby on Rails web development...\r\nGet this book by renowned
+      teacher and author Daniel Kehoe. No other tutorial does a better job of explaining
+      the concepts. Master the basics. Learn the practices you'll use in the workplace
+      as a professional Rails developer. Learn in a weekend, building a real-life
+      web application, using the newest Rails version.\r\n\r\nIs It For You?\r\nThis
+      book is written for YOU if you are new to Ruby on Rails and...\r\nYou've got
+      experience with the web and need to learn Rails\r\nYou don't know how to program
+      -- but want to learn\r\nYou want to build an application\r\nYou want to start
+      a career as a professional web developer\r\nWhat Experts Are Saying\r\nLinda
+      Liukas, co-founder of Rails Girls...\r\n\"Learn Ruby on Rails is a great book
+      for anyone starting to learn web development, giving you the context and explanations
+      at the right time in an encouraging way.\"\r\n\r\nMichael Hartl, author of the
+      Ruby on Rails Tutorial...\r\n\"If you're new to web development, I recommend
+      Daniel Kehoe's excellent Learn Ruby on Rails book. Learn Ruby on Rails is the
+      gentlest introduction to Rails that I know of, so it's a great place for beginners
+      to start.\"\r\n\r\nChapters and Topics\r\nIntroduction - What You'll Learn\r\nConcepts
+      - How the Web Works, What is Rails?, Gems, Git, Testing, Rails Stacks\r\nGet
+      Help When You Need It - Stack Overflow, Meetups, Pair Programming, Code Reviews\r\nPlan
+      Your Product - User Stories, Wireframes and Mockups, Behavior-Driven Development\r\nManage
+      Your Project - Kanban, Trello, Agile\r\nAccounts You May Need - GitHub, Gmail,
+      MailChimp, Heroku\r\nGet Started - Text Editor, Terminal, Unix commands, Installing
+      Ruby\r\nCreate the Application - Starter Applications, Rails New, Server, Log
+      Messages\r\nThe Parking Structure - Rails Files and Folders Explained\r\nTime
+      Travel with Git - Configuring Git, Repository, GitIgnore, Git Workflow, GitHub\r\nGems
+      - Where Do Gems Live?, Gemfile, Bundler\r\nConfigure - Environment Variables,
+      Config Secrets File, Configure Email\r\nStatic Pages and Routing - Public Folder,
+      Home Page, About Page, Routes\r\nRequest and Response - Browser Developer Tools
+      View, Document Object Model, Model View Controller\r\nDynamic Home Page - Naming
+      Conventions, Routing, Model, View, Controller\r\nTroubleshoot - Interactive
+      Ruby Shell, Rails Console, Logger, Stack Trace, Exceptions\r\nJust Enough Ruby
+      - Ruby Literacy, Object-Oriented Terminology, Ruby Basics\r\nLayout and Views
+      - Template Languages, ERB, Application Layout, Boilerplate, Yield, View Helpers\r\nFront-End
+      Framework - Asset Pipeline, Navigation, Partials, Messages, Zurb Foundation\r\nAdd
+      Pages - High Voltage Gem, Contact Page\r\nContact Form - SimpleForm, Params
+      Hash, Validation, ActiveModel, RESTful Controllers, Security\r\nSpreadsheet
+      Connection - APIs, Connecting to Google Drive, Service-Oriented Architecture\r\nSend
+      Mail - Mailer, Queueing and Background Jobs\r\nMailing List - APIs\r\nDeploy
+      - Heroku\r\nAnalytics - Google Analytics, Segment, Turbolinks, Page and Event
+      Tracking\r\nTesting - Why Test?, What Are Tests?, Minitest, Capybara, Feature
+      Tests, TDD\r\nRails Composer - Starter Applications\r\nRails Challenges - Overcoming
+      Obstacles\r\nCrossing the Chasm - Building Your Own Applications, Finding a
+      Mentor, Self-Help Strategies\r\nLevel Up - What to Learn Next\r\nWant To Know
+      More?\r\nScroll to the top and select buy."
+    - " Daniel Kehoe"
+    - '2018-04-02 15:01:43.321502'
+    - '2018-04-02 15:01:43.321502'
+    - 1
+    - 2
+    - 4.jpg
+    - image/jpeg
+    - 22451
+    - '2018-04-02 15:01:43.260821'
+  - - 9
+    - 'Rails: Novice to Ninja: Build Your Own Ruby on Rails Website 3rd Edition'
+    - "Rails: Novice to Ninja is an easy-to-follow, practical and fun guide to Ruby
+      on Rails for beginners. It covers all you need to get up and running, from installing
+      Ruby, Rails and SQLite to building and deploying a fully-featured web application.
+      The third edition of this book has been fully updated to cover Rails 5, the
+      latest version of the framework.\r\n\r\nUnlike other Rails books, this book
+      doesn't assume that you are an experienced web developer, or that you've used
+      Ruby before. An entire chapter is devoted to learning Ruby in a fun way, using
+      the interactive Ruby console, so you can follow along at home. You'll be an
+      accomplished Ruby programmer in no time! You'll then start using Rails to build
+      a practical, working project: a Reddit-like social news application. As you'll
+      build the app, you'll gain valuable experience of using Rails features such
+      as user authentication, session cookies, and automated testing. The book finishes
+      with chapters on debugging, benchmarking and deployment to a live web server."
+    - Glenn Goodrich (Author),‎ Patrick Lenz (Author)
+    - '2018-04-02 15:02:22.149589'
+    - '2018-04-02 15:02:22.149589'
+    - 1
+    - 2
+    - 5.jpg
+    - image/jpeg
+    - 32694
+    - '2018-04-02 15:02:22.055262'
+  - - 10
+    - Agile Web Development with Rails 5 1st Edition
+    - Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial
+      performance enhancements, and the fifth edition of this award-winning classic
+      is now updated! If you're new to Rails, you'll get step-by-step guidance. If
+      you're an experienced developer, this book will give you the comprehensive,
+      insider information you need for the latest version of Ruby on Rails.
+    - " Sam Ruby (Author)"
+    - '2018-04-02 15:02:54.596231'
+    - '2018-04-02 15:02:54.596231'
+    - 1
+    - 2
+    - 6.jpg
+    - image/jpeg
+    - 38816
+    - '2018-04-02 15:02:54.470161'
+
+---
+categories:
+  columns:
+  - id
+  - name
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Action
+    - '2018-04-02 07:58:13.550786'
+    - '2018-04-02 07:58:13.550786'
+  - - 2
+    - Technology
+    - '2018-04-02 07:58:30.931364'
+    - '2018-04-02 07:58:30.931364'
+  - - 3
+    - Photograper
+    - '2018-04-02 07:58:44.967038'
+    - '2018-04-02 07:58:44.967038'
+
+---
+reviews:
+  columns:
+  - id
+  - rating
+  - comment
+  - created_at
+  - updated_at
+  - user_id
+  - book_id
+  records: 
+  - - 5
+    - 1
+    - '11111'
+    - '2018-04-02 11:35:19.703979'
+    - '2018-04-02 12:28:44.245968'
+    - 1
+    - 1
+  - - 7
+    - 4
+    - '121313'
+    - '2018-04-02 12:08:14.288257'
+    - '2018-04-02 12:11:17.084366'
+    - 1
+    - 4
+  - - 8
+    - 5
+    - Hay quá
+    - '2018-04-02 12:14:25.078181'
+    - '2018-04-02 12:14:33.754464'
+    - 1
+    - 5
+  - - 9
+    - 4
+    - ádáda
+    - '2018-04-02 12:17:19.024226'
+    - '2018-04-02 12:19:14.530289'
+    - 1
+    - 4
+  - - 10
+    - 4
+    - hay quá
+    - '2018-04-02 12:34:27.231660'
+    - '2018-04-02 12:34:33.313262'
+    - 1
+    - 1
+  - - 11
+    - 4
+    - thật hay!!!!!!!!!!!!!!!1111
+    - '2018-04-02 13:06:11.537778'
+    - '2018-04-02 13:06:11.537778'
+    - 2
+    - 5
+  - - 12
+    - 5
+    - 'Good '
+    - '2018-04-02 15:03:38.879361'
+    - '2018-04-02 15:03:38.879361'
+    - 1
+    - 10
+  - - 13
+    - 4
+    - hay
+    - '2018-04-03 04:14:39.731987'
+    - '2018-04-03 04:14:39.731987'
+    - 1
+    - 10
+  - - 14
+    - 5
+    - Geat
+    - '2018-04-03 04:17:27.668472'
+    - '2018-04-03 04:17:27.668472'
+    - 1
+    - 7
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - vuduclam2412@gmail.com
+    - "$2a$11$MOgNGoh6z.ZIMgIQllEbJec2A.z4QG7qvvk/J3pW8oATo3w3LZjfq"
+    - 
+    - 
+    - 
+    - 18
+    - '2018-04-03 03:09:44.610225'
+    - '2018-04-03 02:41:12.876649'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2018-04-02 07:15:45.997561'
+    - '2018-04-03 03:09:44.611086'
+  - - 2
+    - vuduclam@gmail.com
+    - "$2a$11$9l1rQo4WdUgY0m7tvioHE.Nduy5j0H1ebhB5wkcXdEJhO5jl644Na"
+    - 
+    - 
+    - 
+    - 2
+    - '2018-04-03 02:49:40.609611'
+    - '2018-04-02 13:05:55.763289'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2018-04-02 13:05:55.666377'
+    - '2018-04-03 02:49:40.610148'

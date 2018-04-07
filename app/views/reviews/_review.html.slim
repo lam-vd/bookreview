@@ -1,0 +1,11 @@
+.review
+  |  <div class="review-rating" data-score="
+  = review.rating
+  | ">
+p.review-comment
+  = review.comment
+- if user_signed_in?
+  - if review.user_id == current_user.id
+    .links.btn-group
+      = link_to "Edit Review", edit_book_review_path(review.book, review), class: "btn btn-custom"
+      = link_to "Delete", book_review_path(review.book, review), method: :delete, data: {confirm: "Are You Sure?"}, class: "btn btn-custom"
